@@ -18,7 +18,7 @@ Actor ImpactX Replaces BulletPuff {
 		XDeath:
 			TNT1 AAA 0
 			TNT1 A 0 {
-				A_StartSound("ImpactX/Hit", CHAN_BODY, CHANF_DEFAULT, 2.0, ATTN_NORM, FRandom(0.75, 1.25));
+				A_StartSound("ImpactX/Hit", CHAN_BODY, CHANF_DEFAULT, 2.0, ATTN_NORM, FRandom(0.875, 1.125));
 			}
 			Stop
 	}
